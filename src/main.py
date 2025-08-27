@@ -33,9 +33,9 @@ agent=initialize_agent(
         }
         )
 
-agent.invoke("What is the weather in delhi?")
+# agent.invoke("What is the weather in delhi?")
 
 
 # agent.invoke("what is my leave policy? and also get me list of all open tickets")
 # agent.invoke("what is my friend salary?")
-# agent.invoke("list all titles of tickets where title contains laptop")
+agent.invoke("Show tickets created_at after 2025-01-01")
